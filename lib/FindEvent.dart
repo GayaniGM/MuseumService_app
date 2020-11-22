@@ -97,7 +97,7 @@ class FindEvent extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: <Widget>[
-                  Text("Museum exhibition and auction 2020", style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),),
+                  Text("Museum exhibition and auction 2020", style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.normal),),
                   SizedBox(height: 10,),
                   Row(
                     children: <Widget>[

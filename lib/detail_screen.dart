@@ -35,7 +35,7 @@ class _DetailScreenState extends State<DetailScreen>{
         ),
         body: SafeArea(
             child: Column(
-          //crossAxisAlignment: CrossAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             Padding(
               padding: const EdgeInsets.all(18.0),
@@ -48,16 +48,15 @@ class _DetailScreenState extends State<DetailScreen>{
                 textAlign: TextAlign.center,
               ),
             ),
-            Padding(
+            Expanded(
+            child: GridView.count(
+            crossAxisCount: 2,
+            childAspectRatio: 200 / 250,
               padding: const EdgeInsets.all(12.0),
-              child: Center(
-                child: Wrap(
-                  spacing: 20,
-                  runSpacing: 20.0,
                   children: <Widget>[
                     SizedBox(
-                      width: 160.0,
-                      height: 160.0,
+                      width: 90.0,
+                      height: 90.0,
                       child: Card(
                         elevation: 2.0,
                         shape: RoundedRectangleBorder(
@@ -69,11 +68,11 @@ class _DetailScreenState extends State<DetailScreen>{
                             children: <Widget>[
                               Image.asset(
                                 "assets/OnlineGuide.PNG",
-                                width: 110.0,
+                                width: 350.0,
                               ),
 
                               SizedBox(
-                                height: 10.0,
+                                height: 8.0,
                               ),
                               Text(
                                 "Museum Guide map",
@@ -83,7 +82,7 @@ class _DetailScreenState extends State<DetailScreen>{
                                     fontSize: 12.0),
                               ),
                               SizedBox(
-                                height: 5.0,
+                                height: 4.0,
                               ),
                             ],
                           ),
@@ -104,7 +103,7 @@ class _DetailScreenState extends State<DetailScreen>{
                             children: <Widget>[
                               Image.asset(
                                 "assets/Onlinesupport.PNG",
-                                width: 110.0,
+                                width: 350.0,
                               ),
                               SizedBox(
                                 height: 10.0,
@@ -149,8 +148,8 @@ class _DetailScreenState extends State<DetailScreen>{
                               child: Ink.image(
                                 image: AssetImage('assets/EventScheduling.PNG'),
                               // fit: BoxFit.cover,
-                              width: 110.0,
-                              height: 110,
+                              width: 220.0,
+                              height: 220,
                             ),
                           ),
                               SizedBox(
@@ -187,7 +186,8 @@ class _DetailScreenState extends State<DetailScreen>{
                             children: <Widget>[
                               Image.asset(
                                 "assets/QuizeLearn.PNG",
-                                width: 130.0,
+                                width: 220.0,
+                              height: 220,
                               ),
                               SizedBox(
                                 height: 10.0,
@@ -208,10 +208,14 @@ class _DetailScreenState extends State<DetailScreen>{
                       ),
                     ),
                   ],
-                ),
-              ),
-            )
-          ],
-        )));
+               // ),
+             // ),
+           // ),
+            ),
+            ),
+           ],
+        )
+        )
+        );
   }
 }
