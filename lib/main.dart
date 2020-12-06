@@ -67,7 +67,7 @@ class _MyAppState extends State<MyApp> {
       color: AppTheme.getTheme().backgroundColor,
       child: MaterialApp(
           navigatorKey: navigatorKey,
-          title: 'Motel',
+          title: 'Museum App',
           debugShowCheckedModeBanner: false,
           theme: AppTheme.getTheme(),
           routes: routes,
@@ -144,7 +144,7 @@ class HomePage extends StatelessWidget {
                     height: MediaQuery.of(context).size.height / 3,
                     decoration: BoxDecoration(
                         image: DecorationImage(
-                            image: AssetImage('assets/illustration.PNG'))),
+                            image: AssetImage('assets/Illustration.PNG'))),
                   )),
               Column(
                 children: <Widget>[
