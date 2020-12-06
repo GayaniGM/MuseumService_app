@@ -31,6 +31,11 @@ dependencies:
   googleapis: ^0.55.0
   googleapis_auth: ^0.2.12
   url_launcher: ^5.5.0
+  flutter_dialogflow: ^0.1.2
+  font_awesome_flutter: ^8.8.1
+  smooth_star_rating: ^1.1.1
+  flutter_page_indicator: ^0.0.3
+  intl: ^0.16.1
 
 dev_dependencies:
   flutter_test:
@@ -49,6 +54,9 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/
+    - assets/images/
+    - jsonFile/countryList.json
+    - assets/museum-chatbot-296702-72b0a7373265.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -82,3 +90,12 @@ flutter:
         - asset: assets/fonts/light.otf
           weight: 200
         - asset: assets/fonts/normal.otf
+    - family: WorkSans
+      fonts:
+        - asset: assets/fonts/WorkSans-Regular.ttf
+        - asset: assets/fonts/WorkSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/WorkSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/WorkSans-Bold.ttf
+          weight: 700

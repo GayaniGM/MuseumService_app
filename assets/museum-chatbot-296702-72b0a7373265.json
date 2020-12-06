@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "museum-chatbot-296702",
+  "private_key_id": "72b0a73732653dac4ff68d244fc880fdeb174f14",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDOz7WZcLluei32\nKQGEwgYnchoAWqNfphWWozfngQA9Hh3emUcoxnKh3IwAF5yZgeT9aND0SW+qBvek\nP6riVPg7p4o4aMrtPGcpXnS3HAMI9M2Gs/OVk5nJTN8v3B9yktLau6UBCmk2GIXg\nweO0rRL/9EDHPo5XE0USnNBjreAVDg8wnWMPZVn6o/sE9wqgNxw+rGduCAdT1qSO\nAjSDfFEyWU50waCgjgonihZtpG0mdDKuuTA2cXazAgnTXeGzcxjAEhWlpMhbja/S\nTkUVC+TREVpHYFzic94a7b5Fwrztb9cHf8n7L2lsoTSZ7N8QxYhGKk3TcF7duMME\nDTslBUbnAgMBAAECggEAEEBmRt6C09mqDvP9+I6+qQ7gWDLHL9b/T00YMYsDl8ns\nEvf8jYm6rFmGbuNsHOwGMJux/+BddAEEKNYP+aUvtJBf3jrt52KdwLR5e4IqAuQp\n2nH9rD1jElyGFV644eoDw8iHGOPWjLe0nYre9+251n89L+sMiG8tOF82SP764uyJ\nveZVFO3M+7NWSxeqSRBR7jv8fsbYEZwmIS3tc3rpJNFwp9dcjffHFtXPrfJP+mbJ\nXTIHts2kp48hIVJ3atZiiW9fxM1rGFqBnPNp67l0zEfO2zU8dZNmMizV0CasCmNP\nQmDL3mpaFkRmf7U3Kxuex7r8Dn87WTqZ/lJyha2uIQKBgQDqJgvmdzP5l+g0fgGB\nz6M1nCyechoTjbbBF71meZBVTMGP7ieOiZc5vSKXFIZZFR0n/j2RmXI/ycXNP5Lk\nNxdvgYoq2JaJ4OghYGyDBseCPNxPn5r3keh/HFkfVxKfifESG8O8JBnE/UtpiWfi\nYaFlPYySgiMqKfrjPMUXnJ0eyQKBgQDiHI8mvAnpgdXSu/Ng0AzxJTy9z7i4y/q4\nJjwfyhPrNUvqNK5VB++BDM7EQafGfJLNpeAV33CTzoCzdUq0ctLkzeU12jgamcjA\nepReLxsZ0YSE42q+WjHoHMCQXk9FzIMpP6PiIrry2DJDWrL5SbI1waTNCidvVeTi\narPEFfegLwKBgCWCsNdb81yh5FY8dXtZSzk0asV7XAgT5NosNnBrOx8fK8cmDPo9\nupdKYHc5l4g/5KrahPyFS5NCfMizzZF37e40H3Fbv0oZWLa4Hsoi1OVdYKH03Lua\niVeLsA9gQKCEVbVj80h5tBMlzOX8WEMhBt0ULifuZznC/elXe++bbGRZAoGAEgC4\nHRtnpqHhxm+UhybJgQG3/lzllkEXa0YQD2/lehq6OqGLJ9YD6cB9Tf70Psd4YMtO\nNi+eJQaSFLfIBOoHhJQoJcuEIAoSg9C+s2kIvVuDM5lvzEweIR747gW0RhhscQJS\nKBUf0WoJRneYPGTzvXf3iSO/1AuAt85LFdex6Z0CgYEApE/RCRCy4h6RkN1vmJ5O\n3E5rx+oAmzu4ZjFoCGheISs79KKiv2cBaW9B2TMQlS6m6l/1VCDKjiwmRZys9XRr\n7ZJ9cs4TeyU++fxa5NkoKRbU5WtVCFSAJH+Bl1XQaVwkpTxwri1yMDUW5xlYHXe9\nYxObJBLKW1ZZHO5HReNSBYs=\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflow-integrations@museum-chatbot-296702.iam.gserviceaccount.com",
+  "client_id": "106368386305884563244",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-integrations%40museum-chatbot-296702.iam.gserviceaccount.com"
+}

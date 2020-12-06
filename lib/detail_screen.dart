@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:museumservice_app/EventHome.dart';
+import 'package:museumservice_app/dialog_flow.dart';
 
 class DetailScreen extends StatefulWidget {
   @override
@@ -101,10 +102,26 @@ class _DetailScreenState extends State<DetailScreen>{
                           padding: const EdgeInsets.all(8.0),
                           child: Column(
                             children: <Widget>[
-                              Image.asset(
-                                "assets/Onlinesupport.PNG",
-                                width: 350.0,
-                              ),
+                              // Image.asset(
+                              //   "assets/Onlinesupport.PNG",
+                              //   width: 350.0,
+                              // ),
+                              InkWell(
+                              onTap: () {
+                                Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => FlutterFactsChatBot(),
+                            ),
+                          );
+                              },
+                              child: Ink.image(
+                                image: AssetImage('assets/Onlinesupport.PNG'),
+                              // fit: BoxFit.cover,
+                              width: 220.0,
+                              height: 220,
+                            ),
+                          ),
                               SizedBox(
                                 height: 10.0,
                               ),

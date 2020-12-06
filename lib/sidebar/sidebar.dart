@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:museumservice_app/modules/profile/settingsScreen.dart';
 import 'package:rxdart/rxdart.dart';
 
 import '../bloc.navigation_bloc/navigation_bloc.dart';
@@ -142,31 +143,36 @@ class _SideBarState extends State<SideBar>
                               .add(NavigationEvents.ContributionsClickedEvent);
                         },
                       ),
-                      Divider(
-                        height: 64,
-                        thickness: 0.5,
-                        color: Colors.white.withOpacity(0.3),
-                        indent: 32,
-                        endIndent: 32,
-                      ),
+                      // Divider(
+                      //   height: 64,
+                      //   thickness: 0.5,
+                      //   color: Colors.white.withOpacity(0.3),
+                      //   indent: 32,
+                      //   endIndent: 32,
+                      // ),
                       MenuItem(
                         icon: Icons.settings,
                         title: "Settings",
                         onTap: () {
                           onIconPressed();
-                          BlocProvider.of<NavigationBloc>(context)
-                              .add(NavigationEvents.SettingsClickedEvent);
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => SettingsScreen(),
+                            ),
+                          );
+                   
                         },
                       ),
-                      MenuItem(
-                        icon: Icons.exit_to_app,
-                        title: "Logout",
-                        onTap: () {
-                          onIconPressed();
-                          BlocProvider.of<NavigationBloc>(context)
-                              .add(NavigationEvents.LogoutClickedEvent);
-                        },
-                      ),
+                      // MenuItem(
+                      //   icon: Icons.exit_to_app,
+                      //   title: "Logout",
+                      //   onTap: () {
+                      //     onIconPressed();
+                      //     BlocProvider.of<NavigationBloc>(context)
+                      //         .add(NavigationEvents.LogoutClickedEvent);
+                      //   },
+                      // ),
                     ],
                   ),
                 ),

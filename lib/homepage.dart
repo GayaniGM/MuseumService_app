@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:museumservice_app/modules/hotelBooking/hotelHomeScreen.dart';
+import 'package:museumservice_app/modules/transportBooking/transportHomeScreen.dart';
 import 'bloc.navigation_bloc/navigation_bloc.dart';
 import 'package:museumservice_app/service_category.dart';
 import 'package:museumservice_app/detail_screen.dart';
 
+   
 class MainPage extends StatelessWidget with NavigationStates {
+
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -11,19 +16,22 @@ class MainPage extends StatelessWidget with NavigationStates {
       appBar: AppBar(
         backgroundColor: Colors.white,
         actions: <Widget>[
-          Padding(
-            padding: const EdgeInsets.only(right: 12),
-            child: IconButton(
+                      
+        InkWell(
+           child: IconButton(
               icon: SizedBox(
-                height: 40,
-                width: 40,
-                child: Image.asset("assets/profile.png"),
+                height: 70,
+                width: 70,
+               // child: Image.asset("assets/profile.png"),
               ),
-              onPressed: () {
-                debugPrint("profileImage is pressed");
-              },
+                        onPressed: () {
+                        
+                        },
+                       
+                      ),
             ),
-          ),
+      
+         // ),
         ],
         elevation: 0,
       ),
@@ -96,7 +104,7 @@ class MainPage extends StatelessWidget with NavigationStates {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => DetailScreen(),
+                              builder: (context) => TransportHomeScreen(),
                             ),
                           );
                         },
@@ -111,7 +119,7 @@ class MainPage extends StatelessWidget with NavigationStates {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => DetailScreen(),
+                              builder: (context) => HotelHomeScreen(),
                             ),
                           );
                         },
