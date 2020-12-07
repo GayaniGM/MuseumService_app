@@ -6,8 +6,10 @@ A new Flutter Museumm web project.
 
 +  Deploy complete!
 
-Project Console: https://console.firebase.google.com/project/museum-a9512/overview
-Hosting URL: https://museum-a9512.web.app
+Project Console: https://console.firebase.google.com/project/museumserviceapp/overview
+
+
+Hosting URL: https://museumserviceapp.web.app
 
 
 This project is a starting point for a Flutter application.
